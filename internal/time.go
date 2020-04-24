@@ -15,7 +15,7 @@ func main() {
 
 	// 计算当前时区的时间戳
 	time.Local = time.FixedZone("CST", 3600*8)
-	timestamp := time.Now().Local().Unix(); // time.Now() 可以由任一具体时间time.Parse()替换
+	timestamp := time.Now().Local().Unix() // time.Now() 可以由任一具体时间time.Parse()替换
 	fmt.Println(timestamp)
 
 	// 时间段 Duartion 类型
@@ -33,7 +33,7 @@ func main() {
 
 	// 前后比较
 	dt := time.Date(2018, 1, 10, 0, 0, 1, 100, time.Local)
-	fmt.Println(time.Now().After(dt))     // true
+	fmt.Println(time.Now().After(dt)) // true
 
 	var wg sync.WaitGroup
 	wg.Add(2)

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"time"
-	"context"
 )
 
 // context 包是 Go 1.7 引入的标准库，主要用于在 goroutine 之间传递取消信号、超时时间、截止时间以及一些共享的值等。它并不是太完美，但几乎成了并发控制和超时控制的标准做法

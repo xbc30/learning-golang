@@ -7,8 +7,8 @@ import (
 
 func main() {
 	/*
-	math包：
-	 */
+		math包：
+	*/
 	i := -100
 	fmt.Println(math.Abs(float64(i))) //绝对值
 	fmt.Println(math.Ceil(5.0))       //向上取整

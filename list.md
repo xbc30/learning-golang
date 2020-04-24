@@ -48,6 +48,12 @@
 
 ### mod
 
+### json
+* [学会用Go解析复杂JSON的思路](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439322&idx=3&sn=0005684fb448b1f5f505aa2405619ce9&chksm=80bb1e28b7cc973e0e74d8c83401073c4be84c14bb33f8204f34a5d85052ef52d2d09230b5c5&scene=126&sessionid=1587689528&key=955c0459e70002ad523387acd3b3eed782a8a47f7e448948e7fd78623b758b2cdeb21b51fdac3c53129c9791cf03215db9397ec83414ff4f87b78ac845d47acdcd00462ab940a905932ebcc9cdbe7c5a&ascene=1&uin=MTExODQ5NTYyNA%3D%3D&devicetype=Windows+10+x64&version=62090069&lang=zh_CN&exportkey=A1pyaiCphLkMqejEaSW%2BA54%3D&pass_ticket=HnyNkGzYusJBNirviaa0Rsc4zAAeodXg%2BdNf6srMaB6%2FxVmdZwzXGAocm2aT1rlm)
+
+### 规范
+* [2020重学Go系列：29. 盘一盘 Go 语言中的编码规范](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439317&idx=4&sn=51578c3def9a4a049da02b6571aed405&chksm=80bb1e27b7cc97311234ad2a29d1416c082d9faf3e2ef8ed9a11fa9f16f120cc3404ec57699b&scene=21#wechat_redirect)
+
 ### 并发(Mutex or Channel)
 * [golang Mutex 互斥锁](https://juejin.im/post/5ca57ca9e51d452d1a071638)
 * [弄懂 channel 基础](https://juejin.im/entry/58957b49b123db16a396f6ac)

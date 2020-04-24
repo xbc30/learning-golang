@@ -4,15 +4,15 @@ import "fmt"
 import "unicode"
 
 const (
-	MaxRune = '\U0010FFFF' // Unicode 码点最大值
-	ReplacementChar = '\uFFFD' // 代表无效的 Unicode 码点
-	MaxASCII = '\u007F' // ASCII 码点最大值
-	MaxLatin1 = '\u00FF' // Latin-1 码点最大值
+	MaxRune         = '\U0010FFFF' // Unicode 码点最大值
+	ReplacementChar = '\uFFFD'     // 代表无效的 Unicode 码点
+	MaxASCII        = '\u007F'     // ASCII 码点最大值
+	MaxLatin1       = '\u00FF'     // Latin-1 码点最大值
 )
 
 func main() {
-	a:= "Hello 世界"
-	b:= "Hello World"
+	a := "Hello 世界"
+	b := "Hello World"
 
 	// 判断字符 r 是否在 rangtab 表范围内
 	for _, r := range a {
@@ -23,7 +23,7 @@ func main() {
 	}
 
 	// 判断字符 r 是否为大小写格式
-	for _, r:= range b {
+	for _, r := range b {
 		if unicode.IsUpper(r) {
 			fmt.Printf("%c", r) // H W
 		}

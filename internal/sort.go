@@ -5,10 +5,10 @@ import (
 	"sort"
 )
 
-func main()  {
-	a:= sort.Float64Slice{1.1, 0.2, 3.3}
-	b:= sort.IntSlice{1, 20, 3}
-	c:= sort.StringSlice{"3.4", "0.5", "30.5"}
+func main() {
+	a := sort.Float64Slice{1.1, 0.2, 3.3}
+	b := sort.IntSlice{1, 20, 3}
+	c := sort.StringSlice{"3.4", "0.5", "30.5"}
 	d := sort.StringSlice{
 		"啊",
 		"博",
