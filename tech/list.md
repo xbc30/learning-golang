@@ -54,6 +54,10 @@
 ### 规范
 * [2020重学Go系列：29. 盘一盘 Go 语言中的编码规范](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439317&idx=4&sn=51578c3def9a4a049da02b6571aed405&chksm=80bb1e27b7cc97311234ad2a29d1416c082d9faf3e2ef8ed9a11fa9f16f120cc3404ec57699b&scene=21#wechat_redirect)
 
+### 测试
+* [Go单元测试与基准测试](https://www.cnblogs.com/wayne666/p/10559900.html)
+* [Go 中的高级测试模式：集成测试如何做？](https://mp.weixin.qq.com/s/o71M9SU_fh8suuRdOaZ0Bw)
+
 ### 并发(Mutex or Channel)
 * [golang Mutex 互斥锁](https://juejin.im/post/5ca57ca9e51d452d1a071638)
 * [弄懂 channel 基础](https://juejin.im/entry/58957b49b123db16a396f6ac)

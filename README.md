@@ -1,7 +1,7 @@
 ## Learning Golang
-<center>![image](./pic/gopher.png)</center>
+![image](./pic/gopher.png)
 
-### 知识图谱         
+### 知识清单        
 * 基础
   * 变量 常量 类型 函数 包
   * 数组 切片
@@ -17,6 +17,7 @@
   * sort strings time math reflect regexp
   * debug runtime testing
   * fmt error flag log
+  * x 扩展包
 * web
   * [gin](https://github.com/gin-gonic/gin)
   * [beego](https://github.com/astaxie/beego)
@@ -25,6 +26,7 @@
   * go自带的命令行 
   * [cobra](https://github.com/spf13/cobra)
   * [urfave/cli](https://github.com/urfave/cli)
+* leetcode
 * 接口服务
   * rest
   * socket
@@ -45,7 +47,7 @@
   * [xorm](https://github.com/go-xorm/xorm)
   * [grom](https://github.com/jinzhu/gorm)
 * log
-  * Zap
+  * [Zap](https://github.com/uber-go/zap)
   * [Logrus](https://github.com/sirupsen/logrus)
 * test
   * 
@@ -54,6 +56,7 @@
 * 分布式架构
   * [Kubernetes](https://github.com/kubernetes/kubernetes)
   * [Minio](https://github.com/minio/minio)
+  * [consul](https://www.consul.io)
   * [Etcd](https://github.com/etcd-io/etcd)
   * [Influxdb](https://github.com/influxdata/influxdb)
 * 微服务
@@ -63,19 +66,18 @@
   * 消息总线
     * Message-Bus
   * 框架
-    * GoKit
-    * Micro
-    * rpcx
-    * istio
+    * [kit](https://github.com/go-kit/kit)
+    * [micro](https://github.com/zyedidia/micro)
+    * [rpcx](https://github.com/smallnest/rpcx)
+    * [istio](https://github.com/istio/istio)
   * RPC
-    * Protocol Buffers
-    * gRPC-Go
-    * gRPC-Gateway
-    * Twirp
+    * [protobuf](https://github.com/golang/protobuf)
+    * [gRPC-Go](https://github.com/grpc/grpc-go)
+    * [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway)
 * 区块链
   * [Ethereum](https://github.com/ethereum/go-ethereum)
   * [Cosmos](https://github.com/cosmos/cosmos-sdk)
-  * [hyperLedger fabric](https://github.com/hyperledger/fabric)
+  * [HyperLedger Fabric](https://github.com/hyperledger/fabric)
   * [Filecoin](https://github.com/filecoin-project/go-filecoin)
 
 ### 并发特性
@@ -95,6 +97,9 @@
 * micro -- go微服务相关工具实战
 * type -- go数据结构类型
 * web -- web框架实战
-* frame -- go实用工具和依赖库
-* list -- go常见知识点
-* point -- 容易混淆的点
+* tech -- 知识分类
+  * frame -- go实用工具和依赖库
+  * list -- go常见知识点
+  * point -- 容易混淆的点
+  * basic -- 基础知识点
+  * interview -- 面试合集
