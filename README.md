@@ -1,5 +1,5 @@
 ## Learning Golang
-![image](./pic/gopher.png)
+![image](./pic/golang.png)
 
 ### 知识清单        
 * 基础

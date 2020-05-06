@@ -8,6 +8,8 @@
 
 [Go reflect 使用以及使用场景](https://studygolang.com/articles/25624?utm_source=tuicool&utm_medium=referral)
 
+[Golang Reflect反射的使用详解](https://my.oschina.net/90design/blog/1614820)
+
 ### G-P-M
 * Goroutine Processor Machine 
 * [Go调度器原理](https://mp.weixin.qq.com/s/enjlUh9ldfpLUdU1VQFkRA)
