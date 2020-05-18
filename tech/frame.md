@@ -64,3 +64,9 @@
 ### 5月
 * [xlsx](https://github.com/tealeg/xlsx)
 > 用于读取和写入XLSX文件
+
+* [email](https://github.com/jordan-wright/email)
+> 强大而灵活的电子邮件库
+
+* [go-elasticsearch](https://github.com/elastic/go-elasticsearch)
+> Elasticsearch的官方Go客户端

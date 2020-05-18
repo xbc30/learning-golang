@@ -72,3 +72,18 @@
 
 ### I/O模型
 [Go 语言网络轮询器的实现原理](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439418&idx=3&sn=41decc9fbaf367b706880b12b58d45db&chksm=80bb1fc8b7cc96dec094fe2a39e370766655fb9aa388f7dd6fdb7f7488a63e23290bddd69ddd&scene=21#wechat_redirect)
+
+### routine runtime
+> 协程 调度器
+
+### channel+select context
+
+### 并发特性
+* Goroutine上下文切换代价小
+> Goroutine 上下文切换只涉及到三个寄存器（PC / SP / DX）的值修改；而对比线程的上下文切换则需要涉及模式切换（从用户态切换到内核态）、以及 16 个寄存器、PC、SP…等寄存器的刷新；
+
+* Goroutine内存占用少
+> 线程栈空间通常是 2M，Goroutine 栈空间最小 2K ；Golang 程序中可以轻松支持10w 级别的 Goroutine 运行，而线程数量达到 1k 时，内存占用就已经达到 2G。
+
+* G-M-P 调度器
+> GMP模型实现少量内核线程支撑大量 Goroutine 的并发运行
