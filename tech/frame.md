@@ -70,3 +70,9 @@
 
 * [go-elasticsearch](https://github.com/elastic/go-elasticsearch)
 > Elasticsearch的官方Go客户端
+
+* [sqlc](https://github.com/kyleconroy/sqlc)
+> 从SQL生成类型安全的Go代码
+
+* [gnet](https://github.com/panjf2000/gnet)
+> gnet 是一个基于事件驱动的高性能和轻量级网络框架

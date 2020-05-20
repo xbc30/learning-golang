@@ -48,9 +48,12 @@
 ### epoll 原理
 
 ### 文件描述符
+> 文件描述符（File descriptor）是计算机科学中的一个术语，是一个用于表述指向文件的引用的抽象化概念。
+
+> 文件描述符在形式上是一个非负整数。实际上，它是一个索引值，指向内核为每一个进程所维护的该进程打开文件的记录表。当程序打开一个现有文件或者创建一个新文件时，内核向进程返回一个文件描述符。在程序设计中，一些涉及底层的程序编写往往会围绕着文件描述符展开。但是文件描述符这一概念往往只适用于UNIX、Linux这样的操作系统。
 
 ### Unix Domain Socket 与 TCP Socket
-> [初步了解 Nginx unix domain socket 与 TCP socket](https://www.dazhuanlan.com/2019/11/18/5dd2b468f1db0/?__cf_chl_jschl_tk__=bc1f95a32cccf488c28fcfc5dc794799da3de1db-1589726205-0-AalNVny-tpKpuB62YYQbQIRK07vAZSW1r4XgLCo8DbLcZHT3Wxzq4s1FFoE2-hXoEiqqMsTFTGoZy5MxvzhaAOw3zP4-fsZfG8rwqrChiv3HS9s9CBsX4MLJxXYxangRhbZMvlI57nIB9qOwPwGoc0RzWM5HSbosqsXo_pp5oHG-Myd1lyMDyAGtECTf6mHgDgbS-8NHlXU5QoH2jw5P5C5JmGKkXbr-LTaKuxC-GOU_mRNa4E55Q0nvEo1BehdCGdCQ5ILq2VXNJTySziAa17BNFG-nM0aUgSsTDyMegVAj2-xNpieZTA1HLbPj1L5Zhg)
+* [初步了解 Nginx unix domain socket 与 TCP socket](https://www.dazhuanlan.com/2019/11/18/5dd2b468f1db0/?__cf_chl_jschl_tk__=bc1f95a32cccf488c28fcfc5dc794799da3de1db-1589726205-0-AalNVny-tpKpuB62YYQbQIRK07vAZSW1r4XgLCo8DbLcZHT3Wxzq4s1FFoE2-hXoEiqqMsTFTGoZy5MxvzhaAOw3zP4-fsZfG8rwqrChiv3HS9s9CBsX4MLJxXYxangRhbZMvlI57nIB9qOwPwGoc0RzWM5HSbosqsXo_pp5oHG-Myd1lyMDyAGtECTf6mHgDgbS-8NHlXU5QoH2jw5P5C5JmGKkXbr-LTaKuxC-GOU_mRNa4E55Q0nvEo1BehdCGdCQ5ILq2VXNJTySziAa17BNFG-nM0aUgSsTDyMegVAj2-xNpieZTA1HLbPj1L5Zhg)
 
 ### Unix IO模型
 * [IO模型及select、poll、epoll和kqueue的区别](https://www.cnblogs.com/linganxiong/p/5583415.html)
