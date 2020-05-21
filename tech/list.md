@@ -48,7 +48,15 @@
 
 [GO语言基础---值传递与引用传递](https://www.cnblogs.com/yunweiqiang/p/12392331.html)
 
-### mod
+### Mod 命令
+* download    download modules to local cache (下载依赖的module到本地cache))
+* edit        edit go.mod from tools or scripts (编辑go.mod文件)
+* graph       print module requirement graph (打印模块依赖图))
+* init        initialize new module in current directory (再当前文件夹下初始化一个新的module, 创建go.mod文件))
+* tidy        add missing and remove unused modules (增加丢失的module，去掉未用的module)
+* vendor      make vendored copy of dependencies (将依赖复制到vendor下)
+* verify      verify dependencies have expected content (校验依赖)
+* why         explain why packages or modules are needed (解释为什么需要依赖)
 
 ### json
 * [学会用Go解析复杂JSON的思路](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439322&idx=3&sn=0005684fb448b1f5f505aa2405619ce9&chksm=80bb1e28b7cc973e0e74d8c83401073c4be84c14bb33f8204f34a5d85052ef52d2d09230b5c5&scene=126&sessionid=1587689528&key=955c0459e70002ad523387acd3b3eed782a8a47f7e448948e7fd78623b758b2cdeb21b51fdac3c53129c9791cf03215db9397ec83414ff4f87b78ac845d47acdcd00462ab940a905932ebcc9cdbe7c5a&ascene=1&uin=MTExODQ5NTYyNA%3D%3D&devicetype=Windows+10+x64&version=62090069&lang=zh_CN&exportkey=A1pyaiCphLkMqejEaSW%2BA54%3D&pass_ticket=HnyNkGzYusJBNirviaa0Rsc4zAAeodXg%2BdNf6srMaB6%2FxVmdZwzXGAocm2aT1rlm)
@@ -87,3 +95,6 @@
 
 * G-M-P 调度器
 > GMP模型实现少量内核线程支撑大量 Goroutine 的并发运行
+
+### Context
+* [理解GO CONTEXT机制](https://www.cnblogs.com/zhangboyu/p/7456606.html)
