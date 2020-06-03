@@ -76,3 +76,6 @@
 
 * [gnet](https://github.com/panjf2000/gnet)
 > gnet 是一个基于事件驱动的高性能和轻量级网络框架
+
+* [machinery](https://github.com/RichardKnop/machinery)
+> 基于分布式消息传递的异步任务队列/作业队列
