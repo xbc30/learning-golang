@@ -98,3 +98,6 @@
 
 ### Context
 * [理解GO CONTEXT机制](https://www.cnblogs.com/zhangboyu/p/7456606.html)
+
+### K8s
+* [详解 K8s 核心概念](https://mp.weixin.qq.com/s?__biz=MzAxMTA4Njc0OQ==&mid=2651439830&idx=2&sn=59933933e69af63601b21a73782ef3a4&chksm=80bb1c24b7cc9532ed061aedd4d3729f899dc2046f3f21537075266f3f320abdf99ec29c1d8c&scene=126&sessionid=1590887354&key=9e115093a12faf8ec24830e3396a01999ee1e8486df82b2eb84f22d7306bafdf470a34679033e77f6567ae1ba3e4dd3cf9d8246a9afe82ce8e56e4ab2fc5a8ff4101d9d5f880c664e0be4278dbd513f9&ascene=1&uin=MTExODQ5NTYyNA%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=A%2BUp6wrn90JEnjJfiZBXC%2Fw%3D&pass_ticket=OQ076dALfE8Wk9Cydw903qoVShisgge8VzqmrlwpTQxnpmRV2IyCqx8lZGcT1S2y)

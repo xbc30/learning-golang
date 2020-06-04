@@ -79,3 +79,7 @@
 
 * [machinery](https://github.com/RichardKnop/machinery)
 > 基于分布式消息传递的异步任务队列/作业队列
+
+### 6月
+* [nutsdb](https://github.com/xujiajun/nutsdb)
+> 支持事务，多种数据结构的持久化键值存储
